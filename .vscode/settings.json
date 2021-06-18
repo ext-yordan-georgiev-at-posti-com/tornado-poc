@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "/home/ubuntu/.cache/pypoetry/virtualenvs/tornado-poc-Y64NK8c2-py3.8/bin/python3",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        "**/__init__.py": true
+    },
+}

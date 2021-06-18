@@ -1,0 +1,14 @@
+do_check_sudo_rights
+do_setup_sync_time
+do_check_install_os_packages
+do_setup_hostname
+do_secure_network_rules
+do_secure_ports
+do_secure_shared_memory
+do_secure_networking
+do_secure_monitoring
+do_check_setup_bash
+do_check_install_awscli
+do_check_install_python_modules
+do_check_install_terraform
+do_setup_git

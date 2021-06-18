@@ -1,0 +1,1 @@
+while read -r f ; do echo START BOX ::: $(basename $f); while read -r l; do l=$(echo $l|perl -ne 's/do_//g;print'|sed -e 's/_/-/g') ; pf=src/bash/deploy/ubuntu/ubuntu-20.04.2-lts/$l.lst && test -f $pf && cat $pf; done < <(cat $f); echo STOP  BOX ::: $(basename $f); done < <(find src -name run.def*)

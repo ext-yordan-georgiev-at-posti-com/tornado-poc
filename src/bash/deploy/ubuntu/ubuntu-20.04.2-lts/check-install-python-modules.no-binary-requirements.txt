@@ -1,0 +1,3 @@
+wrapt
+pyyaml
+boto3

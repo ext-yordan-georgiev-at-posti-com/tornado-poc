@@ -1,0 +1,16 @@
+zip
+unzip
+build-essential
+git
+vim
+exuberant-ctags
+curl
+wget
+tar
+gzip
+gpgsm
+lsof
+expect
+nmap
+net-tools
+copyq

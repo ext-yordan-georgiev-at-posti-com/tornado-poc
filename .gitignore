@@ -1,0 +1,7 @@
+# python
+__pycache__/
+src/python/tornado-poc/.venv
+
+# misc
+/**/tmp/*
+.env
